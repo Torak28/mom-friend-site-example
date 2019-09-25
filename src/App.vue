@@ -1,20 +1,24 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-container>
+      <router-link to="/">O mnie</router-link> |
+      <router-link to="/kwalifikacje">Kwalifikacje</router-link> |
+      <router-link to="/oferta">Oferta</router-link> |
+      <router-link to="/superwizja">Superwizja</router-link> |
+      <router-link to="/kontakt">Kontakt</router-link>
+    </b-container>
     <router-view/>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+  background: #e6f4f1 !important; 
   text-align: center;
   color: #2c3e50;
+  padding: 2rem;
+  margin: auto;
 }
 #nav {
   padding: 30px;
