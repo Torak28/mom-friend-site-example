@@ -11,6 +11,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
 <style>
 #app {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;

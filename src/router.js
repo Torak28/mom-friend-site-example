@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+import About from "@/views/About.vue";
+import Qualifications from "@/views/Qualifications.vue";
+import Offer from "@/views/Offer.vue";
+import Supervision from "@/views/Supervision.vue";
+import Contact from "@/views/Contact.vue";
 
 Vue.use(Router)
 
@@ -9,29 +13,29 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path: "/",
+      name: "home",
+      component: About
     },
     {
       path: '/kwalifikacje',
       name: 'Kwalifikacje',
-      component: () => import('./views/Qualifications.vue')
+      component: Qualifications
     },
     {
       path: '/oferta',
       name: 'Oferta',
-      component: () => import('./views/Offer.vue')
+      component: Offer
     },
     {
       path: '/superwizja',
       name: 'Superwizja',
-      component: () => import('./views/Supervision.vue')
+      component: Supervision
     },
     {
       path: '/kontakt',
       name: 'Kontakt',
-      component: () => import('./views/Contact.vue')
+      component: Contact
     }
   ]
 })
