@@ -5,6 +5,7 @@ import Qualifications from "@/views/Qualifications.vue";
 import Offer from "@/views/Offer.vue";
 import Supervision from "@/views/Supervision.vue";
 import Contact from "@/views/Contact.vue";
+import Rodo from "@/views/Rodo.vue";
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
       path: '/kontakt',
       name: 'Kontakt',
       component: Contact
+    },
+    {
+      path: '/rodo',
+      name: 'RODO',
+      component: Rodo
     }
   ]
 })
