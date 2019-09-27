@@ -69,4 +69,8 @@ export default {
     min-height: 50px;
     margin: auto;
   }
+  .text {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 </style>

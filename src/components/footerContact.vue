@@ -3,14 +3,18 @@
     <br>
     <br>
     <br>
-    <b-row>
+    <b-row class='text-center' align-v="center">
       <b-col md='6' style="background: white;">
-        <gmap-map :center= "center" :zoom= "zoom" style="width:80%;  height: 300px;">
+        Mapa:
+        <gmap-map :center= "center" :zoom= "zoom" class='map'>
           <gmap-marker :position.sync=markerPos1 :clickable="true"></gmap-marker>
         </gmap-map>
       </b-col>
       <b-col md='6' style="background: green;">
-        XD 2
+        XDXD
+        <br>
+        <br>
+        XDXD
       </b-col>
     </b-row>
   </b-container>
@@ -33,5 +37,13 @@ export default {
   img {
         max-width: 100%;
         height: auto;
+  }
+  .map {
+    width:70%;  
+    height: 200px; 
+    margin-left: auto; 
+    margin-right: auto;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
   }
 </style>

@@ -1,7 +1,12 @@
 <template>
   <b-container class="about">
-    <h1>This is an about page</h1>
-<br>
+    <b-row>
+        <b-col>
+          <h1>Kwalifikacje</h1>
+        </b-col>
+        </b-row>
+    <b-row class='text'>
+      <b-col>
 <br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non nulla maximus, tempus dolor id, convallis magna. Etiam sollicitudin ante nec odio posuere, non blandit enim lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris id nisl nunc. In sit amet dictum tortor, at cursus ex. Phasellus tempor tellus id turpis tempor vulputate. Curabitur luctus diam lorem, in rutrum erat tincidunt sit amet. Mauris eu massa convallis, ultricies purus vitae, pellentesque neque. Etiam pellentesque tempor purus eu malesuada. Phasellus imperdiet libero facilisis, imperdiet libero vitae, aliquam arcu. Pellentesque euismod, neque quis ornare pharetra, dui tortor finibus mi, at aliquam risus purus non justo. Donec et leo justo. Fusce id elit pellentesque, tincidunt lectus id, maximus metus. Aenean auctor congue ipsum in rhoncus. Pellentesque non finibus odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 <br>
@@ -56,6 +61,8 @@ Pellentesque dictum vitae magna sed efficitur. Etiam eros massa, posuere malesua
 <br>
 <br>
 Fusce rutrum est nec tristique elementum. Aliquam ac fermentum mauris, eu pulvinar sem. Morbi iaculis euismod ipsum non ullamcorper. In ornare sollicitudin nibh sed congue. Suspendisse a molestie quam. Aenean libero justo, facilisis at condimentum egestas, hendrerit at dolor. Curabitur eget ante magna. Donec ac sem ac eros aliquet venenatis. 
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -63,5 +70,10 @@ Fusce rutrum est nec tristique elementum. Aliquam ac fermentum mauris, eu pulvin
   .text {
     text-align: justify;
     text-justify: inter-word;
+  }
+  h1 {
+    text-align: right;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(255, 127, 17) 65%);
+    display: inline;
   }
 </style>
