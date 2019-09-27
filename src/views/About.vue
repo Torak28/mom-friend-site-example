@@ -1,6 +1,5 @@
 <template>
   <b-container class="about">
-    <h1>This is an about page</h1>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non nulla maximus, tempus dolor id, convallis magna. Etiam sollicitudin ante nec odio posuere, non blandit enim lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris id nisl nunc. In sit amet dictum tortor, at cursus ex. Phasellus tempor tellus id turpis tempor vulputate. Curabitur luctus diam lorem, in rutrum erat tincidunt sit amet. Mauris eu massa convallis, ultricies purus vitae, pellentesque neque. Etiam pellentesque tempor purus eu malesuada. Phasellus imperdiet libero facilisis, imperdiet libero vitae, aliquam arcu. Pellentesque euismod, neque quis ornare pharetra, dui tortor finibus mi, at aliquam risus purus non justo. Donec et leo justo. Fusce id elit pellentesque, tincidunt lectus id, maximus metus. Aenean auctor congue ipsum in rhoncus. Pellentesque non finibus odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 <br>
 <br>
