@@ -20,6 +20,8 @@
     <br>
     <router-view/>
     <footerContact />
+    <br>
+    <br>
     <b-row class='text-center'>
       <b-col>
         <small class="text-muted">© 2019, Jarek Ciołek-Żelechowski</small>
