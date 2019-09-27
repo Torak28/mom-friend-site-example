@@ -1,5 +1,5 @@
 <template>
-  <div class="supervision">
+  <b-container class="supervision">
     <h1>This is an supervision page</h1>
-  </div>
+  </b-container>
 </template>

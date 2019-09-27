@@ -1,5 +1,5 @@
 <template>
-  <div class="quals">
+  <b-container class="quals">
     <h1>This is an quals page</h1>
-  </div>
+  </b-container>
 </template>
