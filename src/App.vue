@@ -19,6 +19,7 @@
     <br>
     <br>
     <router-view/>
+    <footerContact />
     <b-row class='text-center'>
       <b-col>
         <small class="text-muted">© 2019, Jarek Ciołek-Żelechowski</small>
@@ -31,8 +32,13 @@
 </template>
 
 <script>
+import footerContact from "@/components/footerContact.vue";
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    footerContact
+  }
 }
 </script>
 
