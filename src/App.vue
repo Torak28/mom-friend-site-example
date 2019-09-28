@@ -30,21 +30,30 @@
       <b-col>
         <small class="text-muted">{{json.Footer.text}}</small>
         <br>
-        <small><b-link href="http://example.com">{{json.MainBar.cat_6}}</b-link></small>
+        <small><b-link href="https://drive.google.com/file/d/1d1mnG_M2-w5j9F-sF3ddPdsBF3Lyrqz6/view?usp=sharing">{{json.MainBar.cat_6}}</b-link></small>
       </b-col>
     </b-row>
     </b-container>
+    <footer>
+      <cookie-law :buttonText=json.Cookie.bttn theme="base">
+        <div slot="message">
+          Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie, po więcej informacji zapraszam do zapozaniania się z treścią <b-link href="https://drive.google.com/file/d/1d1mnG_M2-w5j9F-sF3ddPdsBF3Lyrqz6/view?usp=sharing">Polityki Prywatności</b-link>!
+        </div>
+      </cookie-law>
+    </footer>
   </div>
 </template>
 
 <script>
 import footerContact from "@/components/footerContact.vue";
+import CookieLaw from 'vue-cookie-law'
 import json from './json/data.json'
 
 export default {
   name: 'app',
   components: {
-    footerContact
+    footerContact,
+    CookieLaw
   },
   data() {
     return {
