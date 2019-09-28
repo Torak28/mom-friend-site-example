@@ -2,17 +2,17 @@
   <div id="app">
     <b-container>
       <b-navbar :sticky="true" toggleable="md" type="light" class="nav-background">
-        <h3 class='d-md-none d-sm-none d-none d-lg-block'>Izabela Kałka</h3>
+        <h3 class='d-md-none d-sm-none d-none d-lg-block'>{{json.MainBar.name}}</h3>
         <b-navbar-toggle target="nav-collapse" />
             
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
-              <b-nav-item to="/">O mnie</b-nav-item>
-              <b-nav-item to="/kwalifikacje">Kwalifikacje</b-nav-item>
-              <b-nav-item to="/oferta">Oferta</b-nav-item>
-              <b-nav-item to="/superwizja">Superwizja</b-nav-item>
-              <b-nav-item to="/kontakt">Kontakt</b-nav-item>
-              <b-nav-item to="/rodo">Polityka prywatności</b-nav-item>
+              <b-nav-item to="/">{{json.MainBar.cat_1}}</b-nav-item>
+              <b-nav-item to="/kwalifikacje">{{json.MainBar.cat_2}}</b-nav-item>
+              <b-nav-item to="/oferta">{{json.MainBar.cat_3}}</b-nav-item>
+              <b-nav-item to="/superwizja">{{json.MainBar.cat_4}}</b-nav-item>
+              <b-nav-item to="/kontakt">{{json.MainBar.cat_5}}</b-nav-item>
+              <!-- <b-nav-item to="/rodo">{{json.MainBar.cat_6}}</b-nav-item> -->
             </b-navbar-nav>
           </b-collapse>
       </b-navbar>
@@ -24,9 +24,9 @@
     <br>
     <b-row class='text-center'>
       <b-col>
-        <small class="text-muted">© 2019, Jarek Ciołek-Żelechowski</small>
+        <small class="text-muted">{{json.Footer.text}}</small>
         <br>
-        <small><b-link href="http://example.com">Polityki Prywatności</b-link></small>
+        <small><b-link href="http://example.com">{{json.MainBar.cat_6}}</b-link></small>
       </b-col>
     </b-row>
     </b-container>
@@ -35,11 +35,17 @@
 
 <script>
 import footerContact from "@/components/footerContact.vue";
+import json from './json/data.json'
 
 export default {
   name: 'app',
   components: {
     footerContact
+  },
+  data() {
+    return {
+      json
+    }
   }
 }
 </script>
