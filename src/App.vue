@@ -12,7 +12,7 @@
               <b-nav-item to="/oferta">{{json.MainBar.cat_3}}</b-nav-item>
               <b-nav-item to="/superwizja">{{json.MainBar.cat_4}}</b-nav-item>
               <b-nav-item to="/kontakt">{{json.MainBar.cat_5}}</b-nav-item>
-              <!-- <b-nav-item to="/rodo">{{json.MainBar.cat_6}}</b-nav-item> -->
+              <b-nav-item to="/rodo">{{json.MainBar.cat_6}}</b-nav-item>
             </b-navbar-nav>
           </b-collapse>
       </b-navbar>

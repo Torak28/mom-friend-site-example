@@ -1,6 +1,5 @@
 <template>
   <b-container class="offer">
-
     <b-row class='text'>
       <b-col>
         <h1>{{json.title1}}</h1>
