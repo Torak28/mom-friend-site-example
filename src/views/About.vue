@@ -2,7 +2,7 @@
   <b-container class="about">
     <b-row>
         <b-col>
-          <h1>Kwalifikacje</h1>
+          <h1>xd</h1>
         </b-col>
         </b-row>
     <b-row class='text'>
