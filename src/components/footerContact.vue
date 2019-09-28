@@ -55,12 +55,6 @@ export default {
     /* margin-top: 10px; */
     margin-bottom: 10px;
   }
-  .tmp {
-    margin-left: auto; 
-    margin-right: auto;
-    margin-bottom: 0;
-    width:70%;
-  }
   .contact {
     height: 200px;
   }

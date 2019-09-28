@@ -18,8 +18,12 @@
       </b-navbar>
     <br>
     <br>
-    <router-view/>
-    <footerContact v-bind:json='json.FooterContact'/>
+    <b-row>
+      <router-view/>
+    </b-row>
+    <b-row>
+      <footerContact v-bind:json='json.FooterContact'/>
+    </b-row>
     <br>
     <br>
     <b-row class='text-center'>
@@ -63,6 +67,10 @@ export default {
     display: inline;
   } */
   h3 {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(140, 180, 255) 65%);
+    display: inline;
+  }
+  h5 {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(140, 180, 255) 65%);
     display: inline;
   }
