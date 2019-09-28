@@ -28,16 +28,16 @@
     <br>
     <b-row class='text-center'>
       <b-col>
-        <small class="text-muted">{{json.Footer.text}}</small>
+        <small class="text-muted">{{json.Footer.text1}}</small>
         <br>
-        <small><b-link href="https://drive.google.com/file/d/1d1mnG_M2-w5j9F-sF3ddPdsBF3Lyrqz6/view?usp=sharing">{{json.MainBar.cat_6}}</b-link></small>
+        <small><b-link to="/rodo">{{json.Footer.text2}}</b-link></small>
       </b-col>
     </b-row>
     </b-container>
     <footer>
       <cookie-law :buttonText=json.Cookie.bttn theme="base">
         <div slot="message">
-          Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie, po więcej informacji zapraszam do zapozaniania się z treścią <b-link href="https://drive.google.com/file/d/1d1mnG_M2-w5j9F-sF3ddPdsBF3Lyrqz6/view?usp=sharing">Polityki Prywatności</b-link>!
+          Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie, po więcej informacji zapraszam do zapozaniania się z treścią <b-link href="/rodo">Polityki Prywatności</b-link>!
         </div>
       </cookie-law>
     </footer>
