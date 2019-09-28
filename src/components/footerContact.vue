@@ -16,12 +16,12 @@
             {{json.text}}
             <br>
             <br>
-            {{json.tel}}
+            <font-awesome-icon icon="phone" /> {{json.tel}}
             <br>
             <br>
             <b>{{json.addr1}}</b>
             <br>
-            {{json.addr2}}
+            <font-awesome-icon icon="map-marker-alt" /> {{json.addr2}}
             <br>
             {{json.addr3}}
           </b-col>
