@@ -13,17 +13,17 @@
       <b-col md='6'>
         <b-row>
           <b-col class='contact'>
-            XDDDDDDDD
+            {{json.text}}
             <br>
             <br>
-            122222222222222222
+            {{json.tel}}
             <br>
             <br>
-            XDDDDDDDD
+            <b>{{json.addr1}}</b>
             <br>
-            XDDDDDDDD
+            {{json.addr2}}
             <br>
-            XDDDDDDDD
+            {{json.addr3}}
           </b-col>
         </b-row>
       </b-col>
@@ -34,6 +34,7 @@
 <script>
 export default {
   name: "footerContact",
+  props: ['json'],
   data() {
     return {
       center: { lat: 50.257931, lng: 19.031550 },

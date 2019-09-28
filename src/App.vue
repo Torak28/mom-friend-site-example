@@ -19,7 +19,7 @@
     <br>
     <br>
     <router-view/>
-    <footerContact />
+    <footerContact v-bind:json='json.FooterContact'/>
     <br>
     <br>
     <b-row class='text-center'>
