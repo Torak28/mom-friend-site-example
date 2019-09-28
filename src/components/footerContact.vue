@@ -28,6 +28,7 @@
         </b-row>
       </b-col>
     </b-row>
+    <br>
   </b-container>
 </template>
 
