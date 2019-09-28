@@ -24,4 +24,4 @@ yarn-error.log*
 src/json
 
 #assets
-src/assets/pic.jpg
+src/assets/*.jpg

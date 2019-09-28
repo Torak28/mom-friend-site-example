@@ -45,5 +45,4 @@ export default {
     background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(255, 127, 17) 65%);
     display: inline;
   }
-  
 </style>
