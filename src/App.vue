@@ -57,7 +57,7 @@ export default {
   },
   data() {
     return {
-      json
+      json 
     }
   }
 }
@@ -93,6 +93,7 @@ export default {
     margin: auto;
   }
   .text {
+    font-size: 1.1rem;
     text-align: justify;
     text-justify: inter-word;
   }
