@@ -7,10 +7,10 @@
     </b-row>
     <br>
     <b-row align-v="center" class='text'>
-      <b-col md='5' class='align-self-center'>
+      <!-- <b-col md='5' class='align-self-center'>
         <img src='@/assets/8.jpg' alt='Room'>
-      </b-col>
-      <b-col md='5'>
+      </b-col> -->
+      <b-col md='6'>
         {{json.text1}}
         <br>
         <br>
@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       json: json.Contact,
-      center: { lat: 50.257931, lng: 19.031550 },
+      center: { lat: 50.252723, lng: 19.011367 },
       zoom: 13.25,
       mapOptions: { disableDefaultUI: true }
     }
