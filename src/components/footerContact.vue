@@ -38,7 +38,7 @@ export default {
   props: ['json'],
   data() {
     return {
-      center: { lat: 50.252723, lng: 19.011367 },
+      center: { lat: 50.252750, lng: 19.012200 },
       zoom: 13.25,
       mapOptions: { disableDefaultUI: true }
     }
