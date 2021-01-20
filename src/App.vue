@@ -2,7 +2,10 @@
   <div id="app">
     <b-container>
       <b-navbar :sticky="true" toggleable="md" type="light" class="nav-background">
-        <h3 class='d-md-none d-sm-none d-none d-lg-block'>{{json.MainBar.name}}</h3>
+        <b-navbar-brand href="#">
+          <img src="./assets/logoNavbar.png" alt="Logo">
+        </b-navbar-brand>
+        <h2 class='d-md-none d-sm-none d-none d-lg-block'>{{json.MainBar.name}}</h2>
         <b-navbar-toggle target="nav-collapse" />
             
           <b-collapse id="nav-collapse" is-nav>
@@ -71,10 +74,10 @@ export default {
     padding: 2rem;
     margin: auto;
   }
-  /* h1 {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, rgb(140, 180, 255) 65%);
+  h2 {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(140, 180, 255) 65%);
     display: inline;
-  } */
+  }
   h3 {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, rgb(140, 180, 255) 65%);
     display: inline;

@@ -7,11 +7,14 @@
     </b-row>
     <br>
     <b-row class='text'>
-      <b-col>
+      <b-col md='6' class='align-self-center' order='2' order-md='1'>
         <b>{{json.sec1}}</b>{{json.text1}}
-      </b-col>
-      <b-col>
+        <br>
+        <br>
         <b>{{json.sec3}}</b>{{json.text3}}
+      </b-col>
+      <b-col md='6' class='align-self-center' order='1' order-md='2'>
+        <img src='@/assets/11.jpg' alt='Logo'>
       </b-col>
     </b-row>
     <br>
