@@ -16,7 +16,7 @@
         <center><b>{{json.text3}}</b></center>
       </b-col>
       <b-col md='4' class='align-self-center' order='1' order-md='2'>
-        <img src='@/assets/pic.jpg' alt='Logo'>
+        <img src='@/assets/pic3.jpg' alt='Logo'>
       </b-col>
     </b-row>
   </b-container>
